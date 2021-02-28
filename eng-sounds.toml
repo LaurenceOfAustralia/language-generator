@@ -1,0 +1,55 @@
+# What we are doing here is grabbing one of each sound in a language, 
+# focusing on gathering as much variation in spelling as possible to make the data interesting.
+sounds = [
+    "b", #     /b/
+    "d", #     /d/
+    "f", #     /f/
+    "g", #     /g/
+    "h", #     /h/
+    "j", #     /j/
+    "k", #     /k/
+    "l", #     /l/
+    "m", #     /m/
+    "n", #     /n/
+    "ng", #    /ng/
+    "p", #     /p/
+    "r", #     /r/
+    "s", #     /s/
+    "t", #     /t/ 
+    "v", #     /v/
+    "w", #     /w/
+    "y", #     /y/
+    "z", #     /z/
+
+    "si", #    /zh/
+    "ch", #    /ch/
+    "sh", #    /sh/
+    "th", #    /th/
+
+    "a", #     /a/
+    "e", #     /e/
+    "i", #     /i/
+    "o", #     /o/
+    "u", #     /u/
+    "oo", #    /oo/
+
+    "ai", #    /ā/
+    "ee", #    /ē/
+    "igh", #   /ī/
+    "oa", #    /ō/
+    "ew", #    /ü/
+    "eau", #   /y/ or /ü/
+    "oi", #    /oi/
+    "ow", #    /ow/
+    "er", #    /ә/
+
+    "air", #   /ã/
+    "ar", #    /ä/
+    "ir", #    /û/
+    "aw", #    /ô/
+    "ear", #   /ēә/
+    "ure" #    /üә/
+]
+
+# Not at all precise, just pick what feels good.
+av_sound_len = 1
